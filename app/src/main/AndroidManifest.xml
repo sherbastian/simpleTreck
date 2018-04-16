@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CompassActivity"
+            android:label="@string/title_activity_compass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".emptyActivity"></activity>
     </application>
 
 </manifest>
